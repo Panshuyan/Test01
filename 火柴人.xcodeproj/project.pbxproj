@@ -13,6 +13,10 @@
 		522C7A8C210CB480007F4129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522C7A8B210CB480007F4129 /* Assets.xcassets */; };
 		522C7A8F210CB480007F4129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522C7A8D210CB480007F4129 /* LaunchScreen.storyboard */; };
 		522C7A92210CB480007F4129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522C7A91210CB480007F4129 /* main.m */; };
+		6125E77227EB6951003735FC /* select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6125E76F27EB6950003735FC /* select@2x.png */; };
+		6125E77327EB6951003735FC /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6125E77027EB6950003735FC /* default@2x.png */; };
+		6125E77427EB6951003735FC /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6125E77127EB6951003735FC /* sparkle.png */; };
+		6125E77727F0A3E5003735FC /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6125E77627F0A3E5003735FC /* LayerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		522C7A8E210CB480007F4129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522C7A90210CB480007F4129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522C7A91210CB480007F4129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6125E76F27EB6950003735FC /* select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select@2x.png"; sourceTree = "<group>"; };
+		6125E77027EB6950003735FC /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		6125E77127EB6951003735FC /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		6125E77527F0A3E5003735FC /* LayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		6125E77627F0A3E5003735FC /* LayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,11 @@
 				522C7A83210CB480007F4129 /* AppDelegate.m */,
 				522C7A85210CB480007F4129 /* ViewController.h */,
 				522C7A86210CB480007F4129 /* ViewController.m */,
+				6125E77527F0A3E5003735FC /* LayerLabel.h */,
+				6125E77627F0A3E5003735FC /* LayerLabel.m */,
+				6125E77027EB6950003735FC /* default@2x.png */,
+				6125E76F27EB6950003735FC /* select@2x.png */,
+				6125E77127EB6951003735FC /* sparkle.png */,
 				522C7A88210CB480007F4129 /* Main.storyboard */,
 				522C7A8B210CB480007F4129 /* Assets.xcassets */,
 				522C7A8D210CB480007F4129 /* LaunchScreen.storyboard */,
@@ -131,6 +145,9 @@
 			files = (
 				522C7A8F210CB480007F4129 /* LaunchScreen.storyboard in Resources */,
 				522C7A8C210CB480007F4129 /* Assets.xcassets in Resources */,
+				6125E77327EB6951003735FC /* default@2x.png in Resources */,
+				6125E77227EB6951003735FC /* select@2x.png in Resources */,
+				6125E77427EB6951003735FC /* sparkle.png in Resources */,
 				522C7A8A210CB480007F4129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6125E77727F0A3E5003735FC /* LayerLabel.m in Sources */,
 				522C7A87210CB480007F4129 /* ViewController.m in Sources */,
 				522C7A92210CB480007F4129 /* main.m in Sources */,
 				522C7A84210CB480007F4129 /* AppDelegate.m in Sources */,
